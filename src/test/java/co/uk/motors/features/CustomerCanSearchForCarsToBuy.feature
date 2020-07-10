@@ -38,6 +38,6 @@ Feature: To Buy Car Search
 
     Examples:
       |PostCode | Make(Any)|Model(Any)|MinPrice(Any)|MaxPrice(Any)|CarLocation  |
-      |OL10 3HL |Show all  |Show all  |£75,000      |£169,950     | Show all    |
+     # |OL10 3HL |Show all  |Show all  |£75,000      |£169,950     | Show all    |
 #      |K1111KK |Show all  |Show all  |£75,000      |£169,950     | Show all    |
 
