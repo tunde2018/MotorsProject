@@ -19,24 +19,21 @@ import org.junit.runner.RunWith;
         // I told the selenium where my Hooks and stepDefinitions
         // (steDefinitions also called glue code) are
 
-        glue = {"co/uk/motors/hooks", "co/uk/motors/stepDefinitions "},
+        glue = {"co/uk/motors/hooks", "co/uk/motors/stepDefinitions"},
 
 
         // where my report is stored, so that human can read it
 
-        plugin = {"Pretty", "json:target/report.json",
+        plugin = {"pretty", "json:target/report.json",
 
         "de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"}
 
 
 
 )
-
-
-
-public class TestRunner
+public class TestRunner {
 //TestRunner will help run test in one go
     // I do not need to extend test runner
     // TestRunner is the only place where I run out of class (start from the  TOP of public class TestRunner
-{
+
 }
